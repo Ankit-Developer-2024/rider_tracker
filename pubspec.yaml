@@ -50,6 +50,13 @@ dependencies:
   geolocator: ^14.0.3
   shimmer: ^3.0.0
   flutter_background_service: ^5.1.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/rider_tracker_icon.png"
+  min_sdk_android: 21
 
 dev_dependencies:
   flutter_test:
@@ -77,6 +84,7 @@ flutter:
   assets:
     - assets/
     - assets/jpg/
+    - assets/icon/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
