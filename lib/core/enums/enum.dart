@@ -1,0 +1,1 @@
+enum TripStatus { idle, active, completed }
