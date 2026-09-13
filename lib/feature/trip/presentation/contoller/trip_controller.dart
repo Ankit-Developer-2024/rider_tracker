@@ -308,8 +308,6 @@ class TripController  extends GetxController with WidgetsBindingObserver {
         if(tripsData!=null) {
           trips.value = tripsData;
           showToast("Trip fetch successfully");
-        } else {
-          showToast("Trip not fetch successfully");
         }
 
     }catch(e){
